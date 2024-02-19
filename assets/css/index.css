@@ -63,13 +63,107 @@ nav {
 }
 
 .hero-contant>h1 {
-    font-size: 128px;
+    font-size: 120px;
     color: #ffffff;
     font-weight: 700;
 }
 
-.hero-contant>h1>span {
+.shakkhat {
+    color: #ffffff;
+    position: relative;
+}
+
+.my-section {
+    white-space: nowrap;
+}
+
+.shakkhat::before {
+    content: 'Shakkhat';
+    position: absolute;
+    top: 18px;
+    left: 0;
     color: #8A3FFC;
+    animation: typing 3s ease-in-out infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: '|';
+    }
+
+    8% {
+        content: 'S|';
+    }
+
+    16% {
+        content: 'Sh|';
+    }
+
+    24% {
+        content: 'Sha|';
+    }
+
+    32% {
+        content: 'Shak|';
+    }
+
+    40% {
+        content: 'Shakk|';
+    }
+
+    48% {
+        content: 'Shakkh|';
+    }
+
+    56% {
+        content: 'Shakkha|';
+    }
+
+    64% {
+        content: 'Shakkhat|';
+    }
+
+    72%,
+    80% {
+        content: 'Shakkhat|';
+    }
+
+    82% {
+        content: 'Shakkha|';
+    }
+
+    84% {
+        content: 'Shakkh|';
+    }
+
+    86% {
+        content: 'Shakk|';
+    }
+
+    88% {
+        content: 'Shak|';
+    }
+
+    90% {
+        content: 'Sha|';
+    }
+
+    92% {
+        content: 'Sh|';
+    }
+
+    96% {
+        content: 'S|';
+    }
+
+    98% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    }
+
 }
 
 /* search box css  */
@@ -83,8 +177,8 @@ nav {
 
 .bbbootstrap form {
     position: relative;
-    /* width: 540px; */
-    margin: 22px auto 0;
+    width: 985px;
+    /* margin: 22px auto 0; */
 }
 
 span {
@@ -108,7 +202,7 @@ span {
 }
 
 input.InputBox {
-    font-family: "lucida grande", "Lucida Sans Unicode", tahoma, sans-serif;
+    /* font-family: "lucida grande", "Lucida Sans Unicode", tahoma, sans-serif; */
     color: #333;
     font-size: 15px;
     padding: 3px;
@@ -168,7 +262,7 @@ body .button {
     font-size: 13px;
     font-weight: 700;
     line-height: 22px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border: transparent solid 1px;
     border-radius: 3px;
     -webkit-transition: -webkit-box-shadow 50ms;
