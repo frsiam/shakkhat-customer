@@ -86,6 +86,26 @@ nav {
     animation: typing 3s ease-in-out infinite;
 }
 
+.nav-item a {
+    color: #ffffff !important;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.dropdown-item {
+    color: #333333 !important;
+}
+
+.our-services {
+    background-color: #F5F5F5;
+    height: 18rem;
+}
+
+.service {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
 @keyframes typing {
     0% {
         content: '|';
