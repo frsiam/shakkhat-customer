@@ -207,6 +207,10 @@ nav {
     font-size: 1.3rem;
 }
 
+.company-content img {
+    width: 100%;
+}
+
 .services {
     background-image: linear-gradient(90deg, #5A26A9, #AB7CF2);
     height: 800px;
