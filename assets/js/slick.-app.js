@@ -3,8 +3,9 @@ $('.my-slick-parent').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
-    prevArrow: '<button type="button" class="slick-perv btn btn-primary"><img src="../images/icon/map-pin-line.svg"/></button>',
-    nextArrow: '<button type="button" class="slick-next btn btn-info">N</button>',
+    prevArrow: '<button type="button" class="slick-perv btn fs-3  bg-primary-subtle position-absolute top-0 rounded-circle"><i class="bi bi-arrow-left-short"></i></button>',
+
+    nextArrow: '<button type="button" class="slick-next btn fs-3 bg-primary-subtle position-absolute top-0 end-0 rounded-circle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
         {
             breakpoint: 768,
