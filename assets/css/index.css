@@ -439,3 +439,28 @@ body .button {
     background-image: -o-linear-gradient(#38a2f7, #2498f7);
     background-image: linear-gradient(#38a2f7, #2498f7);
 }
+
+/* footer section  */
+.top-footer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-logos img {
+    margin-right: 15px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    font-size: 1.2em;
+    color: #697077;
+}
+
+.footer-menu ul>li {
+    margin: 20px 0;
+}
+
+.btn-dark {
+    background-color: #622EB0 !important;
+}
