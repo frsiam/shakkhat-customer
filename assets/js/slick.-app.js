@@ -5,7 +5,7 @@ $('.my-slick-parent').slick({
     slidesToShow: 3,
     prevArrow: '<button type="button" class="slick-perv btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
 
-    nextArrow: '<button type="button" class="slick-next btn fs-2 position-absolute rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
+    nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
         {
             breakpoint: 768,
