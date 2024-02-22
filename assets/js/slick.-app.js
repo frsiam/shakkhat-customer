@@ -3,9 +3,9 @@ $('.my-slick-parent').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
-    prevArrow: '<button type="button" class="slick-perv btn fs-3  bg-primary-subtle position-absolute top-0 rounded-circle"><i class="bi bi-arrow-left-short"></i></button>',
+    prevArrow: '<button type="button" class="slick-perv btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
 
-    nextArrow: '<button type="button" class="slick-next btn fs-3 bg-primary-subtle position-absolute top-0 end-0 rounded-circle"><i class="bi bi-arrow-right-short"></i></button>',
+    nextArrow: '<button type="button" class="slick-next btn fs-2 position-absolute rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
         {
             breakpoint: 768,

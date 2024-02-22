@@ -79,6 +79,15 @@ header {
     margin: 15px;
 }
 
+.language {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.dropdown-item:active {
+    background-color: rgb(189, 209, 167) !important;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
@@ -213,10 +222,6 @@ header {
 
 /* ============ responsive view .end// ============ */
 
-.my-section {
-    white-space: nowrap;
-}
-
 .shakkhat::before {
     content: 'Shakkhat';
     position: absolute;
@@ -326,9 +331,28 @@ header {
     padding: 50px 0;
 
 } */
-.companies {
-    height: 253px;
+
+/* slick slider start  */
+.slick-perv {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
 }
+
+.slick-next {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
+}
+
+/* slick slider end  */
+/* .companies {
+    height: 253px;
+} */
 
 .company-content {
     max-width: 1500px;
@@ -336,18 +360,13 @@ header {
     padding: 0 20px;
     height: 292px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .company-content p {
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: 1.3rem;
-}
-
-.company-content img {
-    width: 100%;
 }
 
 .services {
@@ -474,6 +493,51 @@ header {
     width: 985px;
     /* margin: 22px auto 0; */
 }
+
+/* resposnsive bbbootstrap form start */
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 550px !important;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .bbbootstrap form {
+        width: 300px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.2rem;
+    }
+
+    .hero-contant>h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .container {
+        max-width: 900px !important;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .bbbootstrap form {
+        width: 500px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.6rem;
+    }
+
+    .hero-contant>h1 {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+}
+
+/* resposnsive bbbootstrap form end */
 
 span {
     margin: 0;
