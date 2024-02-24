@@ -466,6 +466,14 @@ header {
     overflow: auto;
 }
 
+.special-offer>.text-center>h1 {
+    font-size: 3.5rem;
+}
+
+.special-offer>.text-center>h4 {
+    font-size: 1.4rem;
+}
+
 .testimonial {
     background-image: linear-gradient(90deg, #5A26A9, #AB7CF2);
     height: 900px;
@@ -475,9 +483,25 @@ header {
 
 .customers-say {
     background-color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
     height: 500px;
     border-radius: 20px;
+}
+
+.main-heading>h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.main-heading>p {
+    font-size: 1.4rem;
+}
+
+.comment-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* search box css  */

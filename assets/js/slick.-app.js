@@ -1,4 +1,14 @@
+// partner logo 
+$('.my-class').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    centerPadding: '10px',
+    autoplaySpeed: 1000,
+});
 
+// special offer and shakkhat activities
 $('.my-slick-parent').slick({
     centerMode: true,
     centerPadding: '60px',
