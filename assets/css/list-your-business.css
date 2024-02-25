@@ -77,6 +77,26 @@ header {
     border: none;
 }
 
+.review {
+    background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
+    border-radius: 1rem;
+}
+
+.slide-item {
+    width: 82.5rem;
+    height: 24.25rem;
+}
+
+.slide-item p {
+    font-size: 1.375rem;
+    color: #ffffff;
+}
+
+.slide-item h6 {
+    color: #ffffff;
+    font-size: 1.8125rem;
+    font-weight: 600;
+}
 
 
 
