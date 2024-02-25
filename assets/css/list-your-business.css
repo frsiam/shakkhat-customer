@@ -82,11 +82,6 @@ header {
     border-radius: 1rem;
 }
 
-.slide-item {
-    width: 82.5rem;
-    height: 24.25rem;
-}
-
 .slide-item p {
     font-size: 1.375rem;
     color: #ffffff;
@@ -119,6 +114,29 @@ header {
 
 .slick-dots>li>button {
     visibility: hidden;
+}
+
+.rate-book {
+    background-image: linear-gradient(180deg, #FFFFFF, #D5BBFE);
+}
+
+.top-rate>h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.top-rate>h1>span {
+    color: #8A3FFC;
+}
+
+.top-rate>.row>.col>h1 {
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.top-rate>.row>.col>span {
+    color: #697077;
+    font-size: 1.375rem;
 }
 
 /* footer section  */
