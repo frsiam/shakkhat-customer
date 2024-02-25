@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    height: 100vh;
+    height: 110rem;
     background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,8 @@ header {
     outline: none;
     border: none;
 }
+
+
 
 
 /* footer section  */
