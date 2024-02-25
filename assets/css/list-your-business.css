@@ -98,7 +98,28 @@ header {
     font-weight: 600;
 }
 
+.slide-item span {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #ffffff;
+}
 
+.slide-img {
+    width: 18.75rem;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li {
+    color: #ffffff;
+}
+
+.slick-dots>li>button {
+    visibility: hidden;
+}
 
 /* footer section  */
 .footer-container {
