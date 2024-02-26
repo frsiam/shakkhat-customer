@@ -166,6 +166,12 @@ header {
     font-weight: 600;
 }
 
+.manage-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .pick-business {
     background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
 }
@@ -181,6 +187,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.business-items .col>p {
+    font-size: 1.375rem;
+    color: #697077;
 }
 
 .business-items>h1 {
