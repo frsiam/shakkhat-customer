@@ -172,6 +172,15 @@ header {
 
 .business-items .col {
     background-color: #ffffff;
+    /* border: 2px solid red; */
+    margin: 4px;
+    height: 12.52rem;
+    width: 12.52rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .business-items>h1 {
