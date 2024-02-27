@@ -214,35 +214,30 @@ header {
 .app-download-right {
     background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
     border-radius: 1.5rem;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem;
     overflow: hidden;
 }
 
-/* .app-download-left {
-    grid-area: adl;
+.app-download-left-text>h1,
+.app-download-right-text>h1 {
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 700;
 }
 
-.app-download-right {
-    grid-area: adr;
-} */
-
-/* .app-row {
-    display: grid;
-    grid-template-areas: "adl adl adl adl adl adl adr adr adr adr adr adr";
-} */
 .app-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
 
 
 /* footer section  */
-.footer-container {
+/* .footer-container {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 20px;
-}
+} */
 
 .social-logos img {
     margin-right: 15px;
