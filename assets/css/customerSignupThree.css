@@ -13,3 +13,32 @@ body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;
 }
+
+.verification-headline>h1 {
+    color: #001141;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.verification-code-box>p {
+    color: #001141;
+    font-size: 1.125rem;
+}
+
+.verification-code-box>input {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    color: blueviolet;
+}
+
+.verification-code-box>input:focus {
+    border: 2px solid blueviolet !important;
+}
+
+form .btn-info {
+    color: #ffffff;
+    font-size: 1.375rem;
+    font-weight: 700;
+    background-color: #8A3FFC !important;
+}
