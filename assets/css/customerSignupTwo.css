@@ -14,7 +14,7 @@ body {
     font-style: normal;
 }
 
-.headline>h3 {
+/* .headline>h3 {
     color: #001141;
     font-size: 1.875rem;
     font-weight: 700;
@@ -28,8 +28,10 @@ body {
 .right-side {
     background-image: url(../images/signup/signupOne.png);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    object-fit: cover;
+    object-fit: contain;
+    background-attachment: fixed;
 }
 
 .individual-text>h5,
@@ -53,6 +55,16 @@ body {
 .business:hover {
     background-color: #F2F2F2;
     border-color: #D3D3D3;
+} */
+.left-top-head>h3 {
+    font-size: 1.875rem;
+    color: #001141;
+    font-weight: 700;
+}
+
+.left-top-head>p {
+    font-size: 1.125rem;
+    color: #696969;
 }
 
 .country-name>span {
