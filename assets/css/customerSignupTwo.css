@@ -23,18 +23,17 @@ body {
 .headline>p {
     color: #697077;
     font-size: 1.125rem;
-}
+} */
 
 .right-side {
     background-image: url(../images/signup/signupOne.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    object-fit: contain;
-    background-attachment: fixed;
+    object-fit: cover;
 }
 
-.individual-text>h5,
+/* .individual-text>h5,
 .business-text>h5 {
     color: #001141;
     font-size: 1.5rem;
