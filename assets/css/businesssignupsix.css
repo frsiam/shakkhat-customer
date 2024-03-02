@@ -39,22 +39,16 @@ body {
     background-color: #8A3FFC !important;
 }
 
-.form-check {
-    margin-bottom: 0.5rem;
-}
-
-.form-check>label {
+.set-location>h4 {
     font-size: 1.125rem;
-    font-weight: 600;
     color: #001141;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.team-warning {
-    background-color: #F8F8F8;
-}
-
-.team-warning>p {
-    font-size: 1.125rem;
+.set-location label {
+    font-size: 1.125;
     color: #697077;
 }
 
