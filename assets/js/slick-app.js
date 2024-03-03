@@ -1,6 +1,6 @@
 // partner logo 
 $('.my-class').slick({
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
@@ -11,19 +11,28 @@ $('.my-class').slick({
 // special offer and shakkhat activities
 $('.my-slick-parent').slick({
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    prevArrow: '<button type="button" class="slick-perv btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
+    centerPadding: '40px',
+    slidesToShow: 5,
+    prevArrow: '<button type="button" class="slick-prev btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
 
     nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
+        {
+            breakpoint: 1365,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '20px',
+                slidesToShow: 3,
+            }
+        },
         {
             breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 2
+                slidesToShow: 3
             }
         },
         {
