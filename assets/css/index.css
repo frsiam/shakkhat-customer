@@ -98,121 +98,8 @@ header {
     background-color: rgb(189, 209, 167) !important;
 }
 
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-
-    .navbar .has-megamenu {
-        position: static !important;
-    }
-
-    .navbar .megamenu {
-        left: 0;
-        right: 0;
-        width: 100%;
-        margin-top: 0;
-    }
-
-}
-
-/* ============ desktop view .end// ============ */
-
-
-/* ============ mobile view ============ */
-@media(max-width: 991px) {
-
-    .navbar.fixed-top .navbar-collapse,
-    .navbar.sticky-top .navbar-collapse {
-        overflow-y: auto;
-        max-height: 90vh;
-        margin-top: 10px;
-    }
-}
-
-/* ============ mobile view .end// ============ */
-
 
 /*======= navbar end ====== */
-
-
-/* ============ responsive view ============ */
-@media(max-width: 1366px) {
-    .container {
-        max-width: 1200px !important;
-        margin: 0 auto;
-        padding: 0 30px;
-    }
-
-    .hero-contant>h4 {
-        font-size: 1.4rem;
-        color: #ffffff;
-        font-weight: 400;
-    }
-
-    .hero-contant>h1 {
-        font-size: 90px;
-        color: #ffffff;
-        font-weight: 600;
-    }
-
-    .navbar .megamenu {
-        padding: 0.5rem;
-    }
-
-    .nav-item>a {
-        color: #ffffff !important;
-        font-size: 1rem !important;
-        margin-right: 0.7rem !important;
-    }
-
-    .list-unstyled>li>a {
-        color: black !important;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-left: 0.4rem;
-    }
-
-    .list-unstyled>li {
-        width: 250px;
-        height: 90px;
-        overflow: hidden;
-        padding: 0.5rem;
-        margin: 0.75rem;
-    }
-
-    .navbar-brand>img {
-        width: 140px !important;
-        padding-top: 10px;
-    }
-
-    .language {
-        width: 50%;
-    }
-}
-
-@media(max-width: 991px) {
-    .hero-contant {
-        justify-content: start;
-    }
-
-    .hero-contant>h4 {
-        font-size: 1.5rem;
-        color: #ffffff;
-        font-weight: 400;
-    }
-
-    .hero-contant>h1 {
-        font-size: 90px;
-        color: #ffffff;
-        font-weight: 600;
-    }
-
-    .navbar-brand>img {
-        width: 200px;
-    }
-}
-
-/* ============ responsive view .end// ============ */
 
 .shakkhat::before {
     content: 'Shakkhat';
@@ -396,10 +283,11 @@ header {
 }
 
 .service-btn {
-    color: #001141;
+    color: var(--primary-font-color) !important;
     padding: 10px 30px;
     font-size: 1.4rem;
     border-radius: 10px;
+    background-color: #F5F5F5;
 }
 
 .service-btn:hover {
@@ -509,61 +397,7 @@ header {
 .bbbootstrap form {
     position: relative;
     width: 985px;
-    /* margin: 22px auto 0; */
 }
-
-/* resposnsive bbbootstrap form start */
-@media screen and (max-width: 576px) {
-    .container {
-        max-width: 550px !important;
-        margin: 0 auto;
-        padding: 0 30px;
-    }
-
-    .hero-contant {
-        overflow-x: hidden;
-    }
-
-    .shakkhat::before {
-        overflow-x: hidden;
-    }
-
-    .bbbootstrap form {
-        width: 300px;
-    }
-
-    .hero-contant>h4 {
-        font-size: 1.2rem;
-    }
-
-    .hero-contant>h1 {
-        font-size: 3rem;
-        font-weight: 600;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 991px) {
-    .container {
-        max-width: 900px !important;
-        margin: 0 auto;
-        padding: 0 40px;
-    }
-
-    .bbbootstrap form {
-        width: 500px;
-    }
-
-    .hero-contant>h4 {
-        font-size: 1.6rem;
-    }
-
-    .hero-contant>h1 {
-        font-size: 6rem;
-        font-weight: 700;
-    }
-}
-
-/* resposnsive bbbootstrap form end */
 
 span {
     margin: 0;
@@ -713,3 +547,523 @@ body .button {
 
 
 }
+
+/* ============ desktop view ============ */
+@media all and (max-width: 1536px) {
+    .container {
+        max-width: 1250px !important;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.4rem;
+        color: #ffffff;
+        font-weight: 400;
+    }
+
+    .hero-contant>h1 {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .navbar .megamenu {
+        padding: 0.5rem;
+    }
+
+    .nav-item>a {
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .list-unstyled>li>a {
+        color: black !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 0.4rem;
+    }
+
+    .list-unstyled>li {
+        width: 250px;
+        height: 90px;
+        overflow: hidden;
+        padding: 0.5rem;
+        margin: 0.75rem;
+    }
+
+    .navbar-brand>img {
+        width: 140px !important;
+        padding-top: 10px;
+    }
+
+    /* .language {
+        width: 50%;
+    } */
+
+
+    .carousel-logo {
+        margin: 120px auto;
+        border-radius: 20px;
+    }
+
+    .my-slick-parent {
+        height: 450px;
+    }
+
+    .my-slick-content {
+        width: 180px !important;
+        height: 230px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .my-slick-content>img {
+        width: 55%;
+    }
+
+    .my-slick-content>p {
+        font-size: 1.2rem;
+    }
+
+    .special-offer {
+        margin: 120px auto;
+        border-radius: 20px;
+        overflow: auto;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .navbar .megamenu {
+        padding: 0.3rem;
+    }
+
+    .nav-item>a {
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .list-unstyled>li>a {
+        color: black !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 0.4rem;
+    }
+
+    .list-unstyled>li {
+        width: 250px;
+        height: 90px;
+        overflow: hidden;
+        padding: 0.5rem;
+        margin: 0.75rem;
+    }
+
+    .navbar-brand>img {
+        width: 140px !important;
+        padding-top: 10px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.5rem !important;
+        font-weight: 400 !important;
+    }
+
+    .hero-contant>h1 {
+        font-size: 5rem !important;
+        font-weight: 600 !important;
+    }
+
+    .bbbootstrap form {
+        /* margin-top: 1rem; */
+        width: 45rem;
+    }
+
+    .features-section {
+        height: 36rem;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-logo {
+        margin: 120px auto;
+        border-radius: 20px;
+    }
+
+    .my-slick-content {
+        width: 180px !important;
+        height: 220px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .my-slick-content>img {
+        width: 60%;
+    }
+
+    .services {
+        height: 200%;
+    }
+
+    .my-slick-parent {
+        height: 350px;
+    }
+
+    .shakkhat {
+        color: var(--primary-bg);
+    }
+
+    .shakkhat::before {
+        content: none;
+        animation: none !important;
+    }
+
+    .special-offer {
+        margin: 120px auto;
+        border-radius: 20px;
+        overflow: auto;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .navbar .megamenu {
+        padding: 0.3rem;
+    }
+
+    .nav-item>a {
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .list-unstyled>li>a {
+        color: black !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 0.4rem;
+    }
+
+    .list-unstyled>li {
+        width: 250px;
+        height: 90px;
+        overflow: hidden;
+        padding: 0.5rem;
+        margin: 0.75rem;
+    }
+
+    .navbar-brand>img {
+        width: 140px !important;
+        padding-top: 10px;
+    }
+
+    .language {
+        width: 7%;
+    }
+
+    .hero-contant>h4 {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem !important;
+        font-weight: 400 !important;
+    }
+
+    .hero-contant>h1 {
+        font-size: 3.5rem !important;
+        font-weight: 600 !important;
+    }
+
+    .bbbootstrap form {
+        margin-top: 1rem;
+        width: 28rem;
+    }
+
+    .features-section {
+        height: 36rem;
+        margin-bottom: 1rem;
+    }
+
+    .my-slick-content {
+        width: 180px !important;
+        height: 220px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .my-slick-content>img {
+        width: 60%;
+    }
+
+    .services {
+        height: 200%;
+    }
+
+    .my-slick-parent {
+        height: 350px;
+    }
+
+    .shakkhat {
+        color: var(--primary-bg);
+    }
+
+    .shakkhat::before {
+        content: none;
+        animation: none !important;
+    }
+}
+
+@media all and (max-width:475px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .hero-contant>h4 {
+        margin-top: 5rem !important;
+        font-size: 1.1rem !important;
+        font-weight: 400 !important;
+    }
+
+    .hero-contant>h1 {
+        font-size: 3rem !important;
+        font-weight: 600 !important;
+    }
+
+    .navbar .megamenu {
+        padding: 0.3rem;
+    }
+
+    .nav-item>a {
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .list-unstyled>li>a {
+        color: black !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 0.4rem;
+    }
+
+    .list-unstyled>li {
+        width: 250px;
+        height: 90px;
+        overflow: hidden;
+        padding: 0.5rem;
+        margin: 0.75rem;
+    }
+
+    .navbar-brand>img {
+        width: 140px !important;
+        padding-top: 10px;
+    }
+
+    .language {
+        width: 10%;
+    }
+
+    .bbbootstrap form {
+        width: 300px;
+    }
+
+    .features-section {
+        height: 36rem;
+        margin-bottom: 1rem;
+    }
+
+    .my-slick-content {
+        width: 180px !important;
+        height: 220px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .my-slick-content>img {
+        width: 60%;
+    }
+
+    .services {
+        height: 200%;
+    }
+
+    .my-slick-parent {
+        height: 350px;
+    }
+}
+
+@media all and (min-width:1024px) and(max-width: 1280px) {
+    .container {
+        max-width: 1024px !important;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.3rem;
+        color: #ffffff;
+        font-weight: 400;
+    }
+
+    .hero-contant>h1 {
+        font-size: 80px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .navbar .megamenu {
+        padding: 0.5rem;
+    }
+
+    .nav-item>a {
+        color: #ffffff !important;
+        font-size: 1rem !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .list-unstyled>li>a {
+        color: black !important;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 0.4rem;
+    }
+
+    .list-unstyled>li {
+        width: 250px;
+        height: 90px;
+        overflow: hidden;
+        padding: 0.5rem;
+        margin: 0.75rem;
+    }
+
+    .navbar-brand>img {
+        width: 140px !important;
+        padding-top: 10px;
+    }
+
+    .language {
+        width: 50%;
+    }
+}
+
+/* @media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+} */
+
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+/* @media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+} */
+
+/* ============ mobile view .end// ============ */
+/* ============ responsive view ============ */
+
+@media(max-width: 991px) {
+    .hero-contant {
+        justify-content: start;
+    }
+
+    .navbar-brand>img {
+        width: 200px;
+    }
+}
+
+/* ============ responsive view .end// ============ */
+/* resposnsive bbbootstrap form start */
+
+/* @media screen and (min-width: 576px) and (max-width: 991px) {
+    .container {
+        max-width: 900px !important;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .bbbootstrap form {
+        width: 500px;
+    }
+
+    .hero-contant>h4 {
+        font-size: 1.6rem;
+    }
+
+    .hero-contant>h1 {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+} */
+
+/* resposnsive bbbootstrap form end */

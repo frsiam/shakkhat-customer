@@ -6,6 +6,42 @@ $('.my-class').slick({
     arrows: false,
     centerPadding: '10px',
     autoplaySpeed: 1000,
+
+    responsive: [
+        {
+            breakpoint: 1365,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
+            }
+        }
+    ]
 });
 
 // special offer and shakkhat activities
@@ -36,12 +72,14 @@ $('.my-slick-parent').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
                 arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
             }
         }
     ]
