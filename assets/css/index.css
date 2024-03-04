@@ -563,7 +563,7 @@ body .button {
     }
 
     .hero-contant>h1 {
-        font-size: 6rem;
+        font-size: 5rem;
         font-weight: 700;
     }
 
@@ -646,6 +646,40 @@ body .button {
         margin: 120px auto;
         border-radius: 20px;
         overflow: auto;
+    }
+
+    .bottom-service {
+        margin-top: 1.5rem;
+    }
+
+    .bottom-service img {
+        margin-top: 2rem;
+    }
+
+    .services {
+        height: 140%;
+        margin: 1rem 0;
+    }
+
+    .service-text {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .service-btn {
+        padding: 9px 24px;
+        font-size: 1.2rem;
+        border-radius: 8px;
+    }
+
+    .service-text h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .service-text p {
+        font-size: 1.3rem;
+        margin: 20px 0;
     }
 }
 
@@ -738,8 +772,17 @@ body .button {
         width: 60%;
     }
 
-    .services {
-        height: 200%;
+    .top-service img,
+    .bottom-service img {
+        height: 100%;
+    }
+
+    .top-service {
+        padding-top: 3rem;
+    }
+
+    .bottom-service {
+        padding-bottom: 3rem;
     }
 
     .my-slick-parent {
@@ -760,9 +803,43 @@ body .button {
         border-radius: 20px;
         overflow: auto;
     }
+
+    .bottom-service {
+        margin-top: 1.5rem;
+    }
+
+    .bottom-service img {
+        margin-top: 2rem;
+    }
+
+    .services {
+        height: 140%;
+        margin: 1rem 0;
+    }
+
+    .service-text {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .service-btn {
+        padding: 9px 24px;
+        font-size: 1.2rem;
+        border-radius: 8px;
+    }
+
+    .service-text h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .service-text p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767.98px) {
     .container {
         max-width: 90%;
         margin: 0 auto;
@@ -857,6 +934,40 @@ body .button {
         content: none;
         animation: none !important;
     }
+
+    .bottom-service {
+        margin-top: 1.5rem;
+    }
+
+    .bottom-service img {
+        margin-top: 2rem;
+    }
+
+    .services {
+        height: 140%;
+        margin: 1rem 0;
+    }
+
+    .service-text {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .service-btn {
+        padding: 9px 24px;
+        font-size: 1.2rem;
+        border-radius: 8px;
+    }
+
+    .service-text h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .service-text p {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
 }
 
 @media all and (max-width:475px) {
@@ -937,11 +1048,33 @@ body .button {
     }
 
     .services {
-        height: 200%;
+        height: 150%;
     }
 
     .my-slick-parent {
         height: 350px;
+    }
+
+    .top-service,
+    .bottom-service {
+        height: 50%;
+        margin: 30px 0;
+    }
+
+    .service-btn {
+        padding: 8px 20px;
+        font-size: 1rem;
+        border-radius: 7px;
+    }
+
+    .service-text h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .service-text p {
+        font-size: 1rem;
+        margin: 20px 0;
     }
 }
 
