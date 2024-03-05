@@ -329,6 +329,27 @@ header {
     border-radius: 10px;
 }
 
+.new-slick-parent {
+    height: 549px;
+    display: flex;
+    align-items: center;
+}
+
+.new-offer {
+    overflow: visible;
+}
+
+.new-slick-content {
+    width: 260px !important;
+    height: 297px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
 .company-logo {
     width: 10rem !important;
     height: 8rem;
@@ -358,6 +379,21 @@ header {
 }
 
 .special-offer>.text-center>h4 {
+    font-size: 1.4rem;
+}
+
+.new-special-offer {
+    margin: 120px auto;
+    background-image: linear-gradient(90deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
+    border-radius: 20px;
+    /* overflow: auto; */
+}
+
+.new-special-offer>.text-center>h1 {
+    font-size: 3.5rem;
+}
+
+.new-special-offer>.text-center>h4 {
     font-size: 1.4rem;
 }
 
