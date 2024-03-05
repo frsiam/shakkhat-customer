@@ -44,8 +44,49 @@ $('.my-class').slick({
     ]
 });
 
-// special offer and shakkhat activities
+// service slick slider 
 $('.my-slick-parent').slick({
+    centerMode: true,
+    centerPadding: '40px',
+    slidesToShow: 5,
+    prevArrow: '<button type="button" class="slick-prev btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
+
+    nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
+    responsive: [
+        {
+            breakpoint: 1365,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '20px',
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
+            }
+        }
+    ]
+});
+
+// special offer and shakkhat activities
+$('.offer-slick-parent').slick({
     centerMode: true,
     centerPadding: '40px',
     slidesToShow: 5,

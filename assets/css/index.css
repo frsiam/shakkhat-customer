@@ -104,7 +104,7 @@ header {
 .shakkhat::before {
     content: 'Shakkhat';
     position: absolute;
-    top: 18px;
+    top: 12.8px;
     left: 0;
     color: var(--primary-bg);
     animation: typing 3s ease-in-out infinite;
@@ -221,7 +221,10 @@ header {
     left: -25px;
     border-radius: 50%;
     background-color: rgb(228, 228, 228);
-    /* background-color: #F5F5F5; */
+}
+
+.slick-prev:hover {
+    background-color: #b1a6a6;
 }
 
 .slick-next {
@@ -230,6 +233,10 @@ header {
     right: -82px;
     border-radius: 50%;
     background-color: rgb(228, 228, 228);
+}
+
+.slick-next:hover {
+    background-color: #b1a6a6;
 }
 
 /* slick slider end  */
@@ -242,7 +249,6 @@ header {
 }
 
 .company-content p {
-    /* color: #ffffff; */
     font-size: 1.3rem;
 }
 
@@ -355,7 +361,7 @@ header {
     font-size: 1.4rem;
 }
 
-.testimonial {
+.offer>.my-slick-content>.testimonial {
     background-image: linear-gradient(90deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
     height: 900px;
     display: flex;
@@ -609,9 +615,10 @@ body .button {
         padding-top: 10px;
     }
 
-    /* .language {
-        width: 50%;
-    } */
+    .language {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 
 
     .carousel-logo {
@@ -646,6 +653,14 @@ body .button {
         margin: 120px auto;
         border-radius: 20px;
         overflow: auto;
+    }
+
+    .special-offer>.text-center>h1 {
+        font-size: 3rem;
+    }
+
+    .special-offer>.text-center>h4 {
+        font-size: 1rem;
     }
 
     .bottom-service {
