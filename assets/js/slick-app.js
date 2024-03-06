@@ -89,7 +89,7 @@ $('.my-slick-parent').slick({
 $('.new-slick-parent').slick({
     centerMode: true,
     centerPadding: '40px',
-    slidesToShow: 1,
+    slidesToShow: 3,
     prevArrow: '<button type="button" class="slick-prev btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
 
     nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',

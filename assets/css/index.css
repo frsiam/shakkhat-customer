@@ -329,6 +329,25 @@ header {
     border-radius: 10px;
 }
 
+.new-special-offer {
+    margin: 120px auto;
+    background-image: linear-gradient(90deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
+    border-radius: 20px;
+    /* overflow: auto; */
+}
+
+.new-special-offer-headline {
+    padding-top: 2rem;
+}
+
+.new-special-offer-headline>h1 {
+    font-size: 3.5rem;
+}
+
+.new-special-offer-headline>h4 {
+    font-size: 1.4rem;
+}
+
 .new-slick-parent {
     /* height: 693px; */
     height: 43.3rem;
@@ -356,12 +375,20 @@ header {
 .new-offer-amount>svg {
     width: 5rem;
     height: 5rem;
+    color: var(--primary-font-color);
+}
+
+.new-offer-amount>h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-font-color);
 }
 
 .offer-details>h3 {
     font-size: 1.75rem;
     color: var(--primary-font-color);
     font-weight: 700;
+    margin: 1rem 0;
 }
 
 .offer-details>p>img,
@@ -406,21 +433,6 @@ header {
 }
 
 .special-offer>.text-center>h4 {
-    font-size: 1.4rem;
-}
-
-.new-special-offer {
-    margin: 120px auto;
-    background-image: linear-gradient(90deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
-    border-radius: 20px;
-    /* overflow: auto; */
-}
-
-.new-special-offer>.text-center>h1 {
-    font-size: 3.5rem;
-}
-
-.new-special-offer>.text-center>h4 {
     font-size: 1.4rem;
 }
 
