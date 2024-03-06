@@ -358,10 +358,6 @@ header {
     height: 5rem;
 }
 
-.offer-details {
-    padding: 1rem;
-}
-
 .offer-details>h3 {
     font-size: 1.75rem;
     color: var(--primary-font-color);
