@@ -330,7 +330,8 @@ header {
 }
 
 .new-slick-parent {
-    height: 549px;
+    /* height: 693px; */
+    height: 43.3rem;
     display: flex;
     align-items: center;
 }
@@ -340,14 +341,44 @@ header {
 }
 
 .new-slick-content {
-    width: 260px !important;
-    height: 297px;
+    /* width: 358px !important; */
+    width: 22.3rem !important;
+    /* height: 451px; */
+    height: 28rem;
     display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 1rem;
+}
+
+.new-offer-amount>svg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.offer-details {
+    padding: 1rem;
+}
+
+.offer-details>h3 {
+    font-size: 1.75rem;
+    color: var(--primary-font-color);
+    font-weight: 700;
+}
+
+.offer-details>p>img,
+.offer-details>address>img {
+    margin-right: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.offer-details>p>span,
+.offer-details>address>span {
+    font-size: 1.25rem;
+    color: var(--secondary-font-color);
 }
 
 .company-logo {
