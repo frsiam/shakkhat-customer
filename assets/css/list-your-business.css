@@ -9,6 +9,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-bg: #8A3FFC;
+    --primary-font-color: #001141;
+    --secondary-font-color: #697077;
+    --bg-linear-gradient-one: #5A26A9;
+    --bg-linear-gradient-two: #AB7CF2;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;
@@ -183,12 +191,12 @@ header {
 }
 
 .pick-business {
-    background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
+    background-image: linear-gradient(100deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
 }
 
 .business-items .col {
     background-color: #ffffff;
-    /* border: 2px solid red; */
+    border: 2px solid transparent;
     margin: 4px;
     height: 12.52rem;
     width: 12.52rem;
@@ -197,6 +205,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.business-items .col:hover {
+    border: 2px solid darkorange;
+    cursor: pointer;
 }
 
 .business-items .col>p {
@@ -425,8 +438,46 @@ header {
     }
 
     .top-rate>.row>.col>span {
-        color: #697077;
         font-size: 1.175rem;
+    }
+
+    .manage-heading>h1 {
+        font-size: 3.3rem;
+        font-weight: 700;
+    }
+
+    .manage-heading>p {
+        font-size: 1.175rem;
+    }
+
+    .manage .col>h1 {
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+
+    .manage .row {
+        margin: 5rem 0 !important;
+    }
+
+    .manage .col>p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    /* pick business  */
+
+    .business-items .col {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .business-items .col>p {
+        font-size: 1.175rem;
+    }
+
+    .business-items>h1 {
+        font-size: 2.75rem;
+        font-weight: 700;
     }
 }
 
