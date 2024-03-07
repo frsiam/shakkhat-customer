@@ -655,7 +655,7 @@ body .button {
 
 }
 
-@media screen and (min-width:1920) {
+@media screen and (min-width:1920px) {
     .container {
         max-width: 1640px !important;
         margin: 0 auto;
