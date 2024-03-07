@@ -9,7 +9,7 @@ $('.my-class').slick({
 
     responsive: [
         {
-            breakpoint: 1365,
+            breakpoint: 1399.98,
             settings: {
                 slidesToShow: 5,
                 slidesToScroll: 1,
@@ -20,7 +20,18 @@ $('.my-class').slick({
             }
         },
         {
-            breakpoint: 992,
+            breakpoint: 1199.98,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                centerPadding: '5px',
+                autoplaySpeed: 1000,
+            }
+        },
+        {
+            breakpoint: 991.98,
             settings: {
                 slidesToShow: 4,
                 slidesToScroll: 1,
@@ -54,12 +65,19 @@ $('.my-slick-parent').slick({
     nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
         {
-            breakpoint: 1365,
+            breakpoint: 1399.98,
             settings: {
-                arrows: false,
                 centerMode: true,
                 centerPadding: '20px',
-                slidesToShow: 3,
+                slidesToShow: 5,
+            }
+        },
+        {
+            breakpoint: 1199.98,
+            settings: {
+                // centerMode: true,
+                centerPadding: '20px',
+                slidesToShow: 4,
             }
         },
         {
@@ -89,26 +107,24 @@ $('.my-slick-parent').slick({
 $('.new-slick-parent').slick({
     centerMode: true,
     centerPadding: '40px',
-    slidesToShow: 3,
-    prevArrow: '<button type="button" class="slick-prev btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
+    slidesToShow: 4,
+    prevArrow: '<button type="button" class="new-slick-prev btn fs-2 translate-middle"><i class="bi bi-arrow-left-short"></i></button>',
 
-    nextArrow: '<button type="button" class="slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
+    nextArrow: '<button type="button" class="new-slick-next btn fs-2 rounded-circle translate-middle"><i class="bi bi-arrow-right-short"></i></button>',
     responsive: [
         {
-            breakpoint: 1365,
+            breakpoint: 1399.98,
             settings: {
-                arrows: false,
                 centerMode: true,
                 centerPadding: '20px',
-                slidesToShow: 3,
+                slidesToShow: 4,
             }
         },
         {
-            breakpoint: 768,
+            breakpoint: 1199.98,
             settings: {
-                arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
+                centerPadding: '20px',
                 slidesToShow: 3
             }
         },
