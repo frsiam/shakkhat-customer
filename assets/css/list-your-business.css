@@ -279,11 +279,11 @@ header {
 }
 
 .btn-dark {
-    background-color: #622EB0 !important;
+    background-color: var(--primary-bg) !important;
 }
 
 .bottom-footer {
-    background-color: #622EB0;
+    background-color: var(--primary-bg);
 }
 
 .term-conditions {
@@ -324,7 +324,7 @@ header {
 /* ============ responsive view ============ */
 @media (max-width:1919.98px) {
     .container {
-        min-width: 1400px !important;
+        max-width: 1400px !important;
         margin: 0 auto;
         padding: 0 30px;
     }
@@ -639,6 +639,11 @@ header {
 }
 
 @media(max-width: 991px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
 
     .navbar.fixed-top .navbar-collapse,
     .navbar.sticky-top .navbar-collapse {
@@ -652,18 +657,18 @@ header {
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 991px) {
+/* @media screen and (min-width: 576px) and (max-width: 991px) {
     .container {
         max-width: 900px !important;
         margin: 0 auto;
         padding: 0 40px;
     }
-}
+} */
 
-@media screen and(max-width: 576px) {
+/* @media screen and(max-width: 576px) {
     .container {
         max-width: 500px !important;
         margin: 0 auto;
         padding: 0 40px;
     }
-}
+} */
