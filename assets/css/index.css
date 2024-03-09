@@ -47,13 +47,13 @@ header {
 }
 
 .hero-contant>h4 {
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: #ffffff;
     font-weight: 400;
 }
 
 .hero-contant>h1 {
-    font-size: 128px;
+    font-size: 8rem;
     color: #ffffff;
     font-weight: 700;
 }
@@ -127,7 +127,12 @@ header {
 
 .feature {
     text-align: center;
-    font-size: 1.3rem;
+}
+
+.feature>p {
+    font-size: 1.375rem;
+    color: var(--primary-font-color);
+    margin-top: 0.5rem !important;
 }
 
 @keyframes typing {
@@ -308,6 +313,17 @@ header {
     margin: 120px auto;
     background-color: #F5F5F5;
     border-radius: 20px;
+}
+
+.carousel-logo>.text-center>p {
+    font-size: 1.375rem;
+    color: var(--primary-font-color);
+}
+
+.carousel-logo>.text-center>h1 {
+    font-size: 3.5rem;
+    color: var(--primary-font-color);
+    font-weight: 700 !important;
 }
 
 .my-slick-parent {
@@ -655,21 +671,19 @@ body .button {
 
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (max-width:1919.98px) {
     .container {
-        max-width: 1640px !important;
+        max-width: 1400px !important;
         margin: 0 auto;
         padding: 0 30px;
     }
 
     .hero-contant>h4 {
-        font-size: 1.8rem;
-        font-weight: 400;
+        font-size: 1.5rem;
     }
 
     .hero-contant>h1 {
-        font-size: 8rem;
-        font-weight: 700;
+        font-size: 6rem;
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -698,11 +712,9 @@ body .button {
     }
 
     .list-unstyled>li>a {
-        color: black !important;
         text-decoration: none;
         font-size: 1.3rem;
-        font-weight: 700;
-        margin-left: 0.5rem;
+        margin-left: 0.8rem;
     }
 
     .list-unstyled>li {
@@ -719,8 +731,12 @@ body .button {
     }
 
     .language {
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .feature>p {
+        font-size: 1.275rem;
     }
 
     /* slick slider start  */
@@ -743,21 +759,29 @@ body .button {
         border-radius: 20px;
     }
 
+    .carousel-logo>.text-center>p {
+        font-size: 1.275rem;
+    }
+
+    .carousel-logo>.text-center>h1 {
+        font-size: 3rem;
+    }
+
     .my-slick-parent {
-        height: 549px;
+        height: 500px;
     }
 
     .my-slick-content {
-        width: 260px !important;
-        height: 297px !important;
+        width: 200px !important;
+        height: 257px !important;
     }
 
     .my-slick-content>img {
-        width: 55%;
+        width: 50%;
     }
 
     .my-slick-content>p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .bottom-service {
@@ -874,13 +898,10 @@ body .button {
 
     .hero-contant>h4 {
         font-size: 1.4rem;
-        color: #ffffff;
-        font-weight: 400;
     }
 
     .hero-contant>h1 {
         font-size: 5rem;
-        font-weight: 700;
     }
 
     .navbar .has-megamenu {
@@ -905,10 +926,7 @@ body .button {
     }
 
     .list-unstyled>li>a {
-        color: black !important;
-        text-decoration: none;
         font-size: 1.2rem;
-        font-weight: 600;
         margin-left: 0.4rem;
     }
 
@@ -930,14 +948,22 @@ body .button {
         height: 1.5rem;
     }
 
-
-    .carousel-logo {
-        margin: 120px auto;
-        border-radius: 20px;
+    .feature>p {
+        font-size: 1.175rem;
     }
+
 
     .my-slick-parent {
         height: 450px;
+    }
+
+    .carousel-logo>.text-center>p {
+        font-size: 1.175rem;
+    }
+
+    .carousel-logo>.text-center>h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
     }
 
     .my-slick-content {
@@ -1307,7 +1333,7 @@ body .button {
     }
 }
 
-/* @media screen and (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) {
     .container {
         max-width: 90%;
         margin: 0 auto;
@@ -1437,182 +1463,3 @@ body .button {
         margin: 20px 0;
     }
 }
-
-@media screen and (max-width:475px) {
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
-        padding: 0 10px;
-    }
-
-    .hero-contant>h4 {
-        margin-top: 5rem !important;
-        font-size: 1.1rem !important;
-        font-weight: 400 !important;
-    }
-
-    .hero-contant>h1 {
-        font-size: 3rem !important;
-        font-weight: 600 !important;
-    }
-
-    .navbar .megamenu {
-        padding: 0.3rem;
-    }
-
-    .nav-item>a {
-        color: #ffffff !important;
-        font-size: 1rem !important;
-        margin-right: 0.7rem !important;
-    }
-
-    .list-unstyled>li>a {
-        color: black !important;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-left: 0.4rem;
-    }
-
-    .list-unstyled>li {
-        width: 250px;
-        height: 90px;
-        overflow: hidden;
-        padding: 0.5rem;
-        margin: 0.75rem;
-    }
-
-    .navbar-brand>img {
-        width: 140px !important;
-        padding-top: 10px;
-    }
-
-    .language {
-        width: 10%;
-    }
-
-    .bbbootstrap form {
-        width: 300px;
-    }
-
-    .features-section {
-        height: 36rem;
-        margin-bottom: 1rem;
-    }
-
-    .my-slick-content {
-        width: 180px !important;
-        height: 220px;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        border-radius: 10px;
-    }
-
-    .my-slick-content>img {
-        width: 60%;
-    }
-
-    .services {
-        height: 150%;
-    }
-
-    .my-slick-parent {
-        height: 350px;
-    }
-
-    .top-service,
-    .bottom-service {
-        height: 50%;
-        margin: 30px 0;
-    }
-
-    .service-btn {
-        padding: 8px 20px;
-        font-size: 1rem;
-        border-radius: 7px;
-    }
-
-    .service-text h1 {
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    .service-text p {
-        font-size: 1rem;
-        margin: 20px 0;
-    }
-} */
-
-/* @media all and (min-width:1024px) and (max-width: 1280px) {
-    .container {
-        max-width: 1024px !important;
-        margin: 0 auto;
-        padding: 0 30px;
-    }
-
-    .hero-contant>h4 {
-        font-size: 1.3rem;
-        color: #ffffff;
-        font-weight: 400;
-    }
-
-    .hero-contant>h1 {
-        font-size: 80px;
-        color: #ffffff;
-        font-weight: 600;
-    }
-
-    .navbar .megamenu {
-        padding: 0.5rem;
-    }
-
-    .nav-item>a {
-        color: #ffffff !important;
-        font-size: 1rem !important;
-        margin-right: 0.7rem !important;
-    }
-
-    .list-unstyled>li>a {
-        color: black !important;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-left: 0.4rem;
-    }
-
-    .list-unstyled>li {
-        width: 250px;
-        height: 90px;
-        overflow: hidden;
-        padding: 0.5rem;
-        margin: 0.75rem;
-    }
-
-    .navbar-brand>img {
-        width: 140px !important;
-        padding-top: 10px;
-    }
-
-    .language {
-        width: 50%;
-    }
-} */
-
-/* ============ desktop view .end// ============ */
-
-
-/* ============ mobile view ============ */
-/* @media(max-width: 991px) {
-
-    .navbar.fixed-top .navbar-collapse,
-    .navbar.sticky-top .navbar-collapse {
-        overflow-y: auto;
-        max-height: 90vh;
-        margin-top: 10px;
-    }
-} */
-
-/* ============ mobile view .end// ============ */
