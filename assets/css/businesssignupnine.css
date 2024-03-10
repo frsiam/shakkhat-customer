@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    position: relative;
+}
+
+.previous-page {
+    top: 1rem;
+    left: 1rem;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;
