@@ -9,13 +9,27 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-bg: #8A3FFC;
+    --primary-font-color: #001141;
+    --secondary-font-color: #697077;
+    --bg-linear-gradient-one: #5A26A9;
+    --bg-linear-gradient-two: #AB7CF2;
+    position: relative;
+}
+
+.previous-page {
+    top: 1rem;
+    left: 1rem;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;
 }
 
 .headline>h3 {
-    color: #001141;
+    color: var(--primary-font-color);
     font-size: 1.875rem;
     font-weight: 700;
 }
@@ -28,13 +42,13 @@ body {
 
 .individual-text>h5,
 .business-text>h5 {
-    color: #001141;
+    color: var(--primary-font-color);
     font-size: 1.5rem;
 }
 
 .individual-text>p,
 .business-text>p {
-    color: #697077;
+    color: var(--secondary-font-color);
     font-size: 1.125rem;
 }
 
@@ -52,10 +66,58 @@ body {
 .country-name>span {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #001141;
+    color: var(--primary-font-color);
 }
 
 .support-us>h5 {
     font-size: 1.125rem;
-    color: #001141;
+    color: var(--primary-font-color);
+}
+
+@media screen and (max-width:1919.98px) {
+    .headline {
+        font-size: 1.57rem;
+    }
+
+    .individual-text>h5,
+    .business-text>h5 {
+        font-size: 1.35rem;
+    }
+
+    .individual-text>p,
+    .business-text>p {
+        font-size: 1rem;
+    }
+
+    .country-name>span {
+        font-size: 1.1rem;
+    }
+
+    .support-us>h5 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1399.98px) {
+    .headline {
+        font-size: 1.47rem;
+    }
+
+    .individual-text>h5,
+    .business-text>h5 {
+        font-size: 1.25rem;
+    }
+
+    .individual-text>p,
+    .business-text>p {
+        font-size: 0.9rem;
+    }
+
+    .country-name>span {
+        font-size: 1rem;
+    }
+
+    .support-us>h5 {
+        font-size: 1rem;
+    }
 }

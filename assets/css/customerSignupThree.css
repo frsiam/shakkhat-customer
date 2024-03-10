@@ -9,6 +9,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    position: relative;
+    --primary-bg: #8A3FFC;
+    --primary-font-color: #001141;
+    --secondary-font-color: #697077;
+    --bg-linear-gradient-one: #5A26A9;
+    --bg-linear-gradient-two: #AB7CF2;
+}
+
+.previouse-page {
+    top: 1rem;
+    left: 1rem;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;

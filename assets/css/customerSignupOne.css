@@ -9,19 +9,33 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-bg: #8A3FFC;
+    --primary-font-color: #001141;
+    --secondary-font-color: #697077;
+    --bg-linear-gradient-one: #5A26A9;
+    --bg-linear-gradient-two: #AB7CF2;
+    position: relative;
+}
+
+.position-absolute {
+    top: 1rem;
+    left: 1rem;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     font-style: normal;
 }
 
 .left-top-head>h3 {
-    color: #001141;
+    color: var(--primary-font-color);
     font-size: 1.875rem;
     font-weight: 700;
 }
 
 .left-top-head>p {
-    color: #697077;
+    color: var(--secondary-font-color);
     font-size: 1.125rem;
 }
 
@@ -38,13 +52,13 @@ body {
 }
 
 .btn-info {
-    background-color: #8A3FFC !important;
+    background-color: var(--primary-bg) !important;
     outline: hidden !important;
     border: 0;
 }
 
 .btn-info:hover {
-    background-color: #8A3FFC !important;
+    background-color: var(--primary-bg) !important;
     outline: none !important;
     color: #ffffff;
 }
@@ -52,10 +66,84 @@ body {
 .country-name>span {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #001141;
+    color: var(--primary-font-color);
 }
 
 .support-us>h5 {
     font-size: 1.125rem;
-    color: #001141;
+    color: var(--primary-font-color);
+}
+
+.have-account h5 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--primary-font-color);
+}
+
+.have-account p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--secondary-font-color);
+}
+
+@media screen and (max-width:1919.98px) {
+    .left-top-head>h3 {
+        font-size: 1.58rem;
+    }
+
+    .left-top-head>p {
+        font-size: 1rem;
+    }
+
+    .submit-btn {
+        font-size: 1.15rem !important;
+        font-weight: 600;
+    }
+
+    .country-name>span {
+        font-size: 1.1rem;
+    }
+
+    .support-us>h5 {
+        font-size: 1.1rem;
+    }
+
+    .have-account h5 {
+        font-size: 1rem;
+    }
+
+    .have-account p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1399.98px) {
+    .left-top-head>h3 {
+        font-size: 1.38rem;
+    }
+
+    .left-top-head>p {
+        font-size: 0.9rem;
+    }
+
+    .submit-btn {
+        font-size: 1.rem !important;
+        font-weight: 600;
+    }
+
+    .country-name>span {
+        font-size: 1rem;
+    }
+
+    .support-us>h5 {
+        font-size: 1rem;
+    }
+
+    .have-account h5 {
+        font-size: 1rem;
+    }
+
+    .have-account p {
+        font-size: 1rem;
+    }
 }

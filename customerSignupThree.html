@@ -36,22 +36,28 @@
                     <form action="">
                         <div class="row justify-content-center">
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4 " type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4 " type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4" type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4" type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4" type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4" type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4" type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4" type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4" type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4" type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="col-2 verification-code-box">
-                                <input class="form-control py-3 rounded-4" type="number" name="number" id="">
+                                <input class="inputs form-control py-3 rounded-4" type="text" name="number" id=""
+                                    maxlength="1">
                             </div>
                             <div class="d-grid col-8 text-center my-3">
                                 <button class="btn btn-info submit-btn rounded-4 py-2" type="submit">Continue</button>
@@ -72,9 +78,27 @@
         </div>
     </div>
 
+    <div class="position-absolute previouse-page">
+        <a href="signup.html"><img class="w-50 border rounded-circle" src="./assets/images/signup/Group 134.png"
+                alt=""></a>
+    </div>
+
     <!-- bootstrap cdn link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/list-your-business.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(".inputs").keyup(function () {
+            if (this.value.length == this.maxLength) {
+                var $next = $(this).next('.inputs');
+                if ($next.length)
+                    $(this).next('.inputs').focus();
+                else
+                    $(this).blur();
+            }
+        });
+
+    </script>
 </body>
 
 </html>
