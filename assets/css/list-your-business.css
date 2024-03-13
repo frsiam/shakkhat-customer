@@ -30,7 +30,7 @@ body {
 
 header {
     height: 110rem;
-    background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
+    background-image: linear-gradient(100deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,14 +90,14 @@ header {
 
 .btn-primary {
     font-size: 1.3rem;
-    background-color: #8A3FFC !important;
+    background-color: var(--primary-bg) !important;
     padding: 0.7rem 1.5rem !important;
     outline: none;
     border: none;
 }
 
 .review {
-    background-image: linear-gradient(100deg, #5A26A9, #AB7CF2);
+    background-image: linear-gradient(100deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
     border-radius: 1rem;
 }
 
@@ -239,8 +239,16 @@ header {
 .app-download-right {
     background-image: linear-gradient(100deg, var(--bg-linear-gradient-one), var(--bg-linear-gradient-two));
     border-radius: 1.5rem;
-    margin: 0.5rem;
+    margin: 2rem;
+    width: 48rem;
+    height: 31rem;
     overflow: hidden;
+}
+
+.app-download-left>img,
+.app-download-right>img {
+    width: 23.4375rem !important;
+    height: 28.625rem !important;
 }
 
 .app-download-left-text>h1,
@@ -268,10 +276,25 @@ header {
     margin-right: 15px;
 }
 
-.footer-menu ul {
+.logo-brand {
+    width: 100%;
+}
+
+.footer-logo>p {
+    color: var(--secondary-font-color);
+    font-size: 1.75rem;
+}
+
+.footer-menu ul>li {
     list-style: none;
+    color: var(--secondary-font-color);
+}
+
+.footer-menu>ul>li>a {
     font-size: 1.2em;
-    color: #697077;
+    color: var(--secondary-font-color);
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .footer-menu ul>li {
@@ -280,6 +303,22 @@ header {
 
 .btn-dark {
     background-color: var(--primary-bg) !important;
+}
+
+.footer-contacts>h3 {
+    color: var(--primary-font-color);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.footer-contacts>address {
+    color: var(--secondary-font-color);
+    font-size: 1.125rem;
+}
+
+.social-logos>p {
+    color: var(--secondary-font-color);
+    font-size: 1.125rem;
 }
 
 .bottom-footer {
@@ -302,6 +341,11 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.term-conditions p {
+    font-size: 1.375rem;
+    font-weight: 600;
 }
 
 /* ============ desktop view ============ */
@@ -460,6 +504,18 @@ header {
         font-size: 4rem;
     }
 
+    .app-download-left,
+    .app-download-right {
+        width: 40rem;
+        height: 26rem;
+    }
+
+    .app-download-left>img,
+    .app-download-right>img {
+        width: 18rem !important;
+        height: 24rem !important;
+    }
+
     .app-heading>p {
         font-size: 1.285rem;
     }
@@ -467,6 +523,35 @@ header {
     .app-download-left-text>h1,
     .app-download-right-text>h1 {
         font-size: 2.1rem;
+    }
+
+    .logo-brand {
+        width: 80%;
+    }
+
+    .footer-logo>p {
+        font-size: 1.35rem;
+    }
+
+    .footer-menu ul>li>a {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .footer-contacts>h3 {
+        font-size: 1.25rem;
+    }
+
+    .footer-contacts>address {
+        font-size: 1.1rem;
+    }
+
+    .social-logos>p {
+        font-size: 1.1rem;
+    }
+
+    .term-conditions p {
+        font-size: 1.1rem;
     }
 }
 
@@ -632,9 +717,57 @@ header {
         font-size: 1.175rem;
     }
 
+    .app-download-left,
+    .app-download-right {
+        width: 35rem;
+        height: 22rem;
+    }
+
+    .app-download-left>img,
+    .app-download-right>img {
+        width: 15rem !important;
+        height: 20rem !important;
+    }
+
     .app-download-left-text>h1,
     .app-download-right-text>h1 {
         font-size: 1.8rem;
+    }
+
+    .app-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr)) !important;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+
+    .footer-logo>p {
+        font-size: 1.1rem;
+    }
+
+    .logo-brand {
+        width: 70%;
+    }
+
+    .footer-menu ul>li>a {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .footer-contacts>h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-contacts>address {
+        font-size: 1rem;
+    }
+
+    .social-logos>p {
+        font-size: 1rem;
+    }
+
+    .term-conditions p {
+        font-size: 1rem;
     }
 }
 
