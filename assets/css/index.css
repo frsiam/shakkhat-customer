@@ -470,10 +470,16 @@ header {
 .main-heading>h1 {
     font-size: 3.5rem;
     font-weight: bold;
+    color: var(--primary-font-color);
 }
 
 .main-heading>p {
-    font-size: 1.4rem;
+    font-size: 1.375rem;
+    color: var(--secondary-font-color);
+}
+
+.name>img {
+    width: 40%;
 }
 
 .comment-part {
@@ -595,6 +601,16 @@ body .button {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#38a2f7), to(#2498f7));
     background-image: -o-linear-gradient(#38a2f7, #2498f7);
     background-image: linear-gradient(#38a2f7, #2498f7);
+}
+
+/* testimonial part  */
+.name {
+    z-index: 9;
+}
+
+.comment {
+    padding: 2rem 5rem;
+    z-index: 1;
 }
 
 /* footer section  */
@@ -952,6 +968,9 @@ body .button {
         font-size: 1.175rem;
     }
 
+    .carousel-logo {
+        margin: 100px auto;
+    }
 
     .my-slick-parent {
         height: 450px;
