@@ -478,16 +478,6 @@ header {
     color: var(--secondary-font-color);
 }
 
-.name>img {
-    width: 40%;
-}
-
-.comment-part {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 /* search box css  */
 
@@ -524,7 +514,6 @@ span {
 }
 
 input.InputBox {
-    /* font-family: "lucida grande", "Lucida Sans Unicode", tahoma, sans-serif; */
     color: #333;
     font-size: 15px;
     padding: 3px;
@@ -604,18 +593,26 @@ body .button {
 }
 
 /* testimonial part  */
+
+.name>img {
+    width: 40%;
+}
+
 .name {
-    z-index: 9;
+    left: 40%;
+    top: 50%;
+    z-index: 10;
 }
 
 .comment {
-    padding: 2rem 5rem;
+    right: 50%;
     z-index: 1;
+    padding: 2rem 4rem;
 }
 
 /* footer section  */
 .footer-container {
-    max-width: 1500px;
+    max-width: 1640px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -670,12 +667,11 @@ body .button {
 .term-conditions {
     display: flex;
     height: 80px;
+    align-items: center !important;
 }
 
 .term-conditions>p {
     flex: 3;
-    display: flex;
-    align-items: center;
 }
 
 .term-conditions>div {
@@ -683,8 +679,6 @@ body .button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
 
 @media screen and (max-width:1919.98px) {
@@ -901,6 +895,15 @@ body .button {
         font-size: 1.145rem;
     }
 
+    .main-heading>h1 {
+        font-size: 3rem;
+    }
+
+    .main-heading>p {
+        font-size: 1.3rem;
+    }
+
+
     /* special offer section end */
 }
 
@@ -1105,6 +1108,14 @@ body .button {
         font-size: 1.145rem;
     }
 
+    .main-heading>h1 {
+        font-size: 2.8rem;
+    }
+
+    .main-heading>p {
+        font-size: 1.25rem;
+    }
+
     .footer-menu>ul li>a {
         font-size: 1em;
         font-weight: 400;
@@ -1127,7 +1138,12 @@ body .button {
     }
 
     .bottom-footer p {
-        font-size: 1.15rem;
+        font-size: 1.1rem !important;
+        font-weight: 400;
+    }
+
+    .term-conditions {
+        height: 60px;
     }
 
     /* special offer section end */
